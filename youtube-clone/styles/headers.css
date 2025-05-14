@@ -1,0 +1,169 @@
+.header{
+    height:60px;
+    display:flex;
+    flex: row;
+    justify-content:start;
+
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: white;
+    border-bottom:1px solid rgb(228,228,228);
+    z-index: 1;
+
+}
+
+.lines{
+    height:30px;
+    margin-right: 20px;
+    margin-left: 30px;
+
+}
+
+.youtubelogo{
+    height:23px;
+    
+}
+.left-section{
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.middle-section{
+    margin-left: 80px;
+    margin-right: 50px;
+    max-width: 700px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+   
+}
+
+.search-bar{
+   flex:1;
+   height:36px;
+   font-family: Roboto,Arial;
+   font-size: 16px;
+   border-width: 1px;
+   border-style:solid ;
+   border-color: rgb(192, 192, 192);
+   box-shadow: inset 1px 1px 1px rgb(175, 163, 163);
+   width:0;
+   
+}
+
+.search-button{
+    height:40px;
+    width:66px;
+    background-color:rgb(240,240,240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+    box-shadow: inset 1px 1px 1px rgb(175, 163, 163);
+    margin-right:10px;
+  }
+
+  .voice-button{
+    height:40px;
+    width:40px;
+    border-radius: 20px;
+    border:none;
+
+
+  }
+  .search-bar::placeholder{
+    font-family: Roboto,arial;
+    font-size: 16px;
+    padding-left: 15px;
+
+  }
+
+
+
+.right-section{
+  
+    width:150px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink:0;
+
+
+}
+
+.reels{
+
+height:30px;
+margin-left: 20px;
+}
+
+.notification{
+    height:30px;
+
+}
+
+.abhaypic{
+    height:30px;
+    border-radius: 15px;
+
+}
+
+.sidebar{
+    position:fixed;
+    top:60px;
+    left:0;
+    bottom:0;
+    background-color: white;
+    width:82px;
+
+}
+.notification-no{
+    position: relative;
+}
+.notification-count{
+    position:absolute;
+    top:0;
+    right:0;
+    background-color: rgb(214, 11, 11);
+    height:13px;
+    width:12px;
+    border-radius: 7.5px;
+    color:white;
+    font-size: 15px;
+    padding-left:3px;
+    padding-top:1px;
+    padding-bottom:2px;
+
+}
+
+.sidebar-box{
+    
+    height:90px;
+    width:79px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.sidebar-box:hover{
+    background-color: rgb(230, 226, 226);
+    
+}
+.p{
+    font-size: 12px;
+}
+
+
+
